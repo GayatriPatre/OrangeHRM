@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T12:58:30Z" name=" orangeHRM Test Suite" finished-at="2023-10-05T12:58:37Z" duration-ms="6874">
+    <groups>
+    </groups>
+    <test started-at="2023-10-05T12:58:30Z" name="New Employee Regestration Testcase" finished-at="2023-10-05T12:58:37Z" duration-ms="6874">
+      <class name="orangeHRM.testcases.EmployeeRegistrationTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:orangeHRM.testcases.EmployeeRegistrationTest@6aaceffd]" started-at="2023-10-05T12:58:25Z" name="launchApp" finished-at="2023-10-05T12:58:30Z" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="adminlogin()[pri:0, instance:orangeHRM.testcases.EmployeeRegistrationTest@6aaceffd]" started-at="2023-10-05T12:58:30Z" name="adminlogin" finished-at="2023-10-05T12:58:32Z" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminlogin -->
+        <test-method signature="checkEmpReg(java.lang.String, java.lang.String)[pri:0, instance:orangeHRM.testcases.EmployeeRegistrationTest@6aaceffd]" started-at="2023-10-05T12:58:32Z" name="checkEmpReg" finished-at="2023-10-05T12:58:36Z" duration-ms="3792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmpReg -->
+        <test-method is-config="true" signature="adminLogout()[pri:0, instance:orangeHRM.testcases.EmployeeRegistrationTest@6aaceffd]" started-at="2023-10-05T12:58:36Z" name="adminLogout" finished-at="2023-10-05T12:58:37Z" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:orangeHRM.testcases.EmployeeRegistrationTest@6aaceffd]" started-at="2023-10-05T12:58:37Z" name="closeApp" finished-at="2023-10-05T12:58:37Z" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangeHRM.testcases.EmployeeRegistrationTest -->
+    </test> <!-- New Employee Regestration Testcase -->
+  </suite> <!--  orangeHRM Test Suite -->
+</testng-results>
